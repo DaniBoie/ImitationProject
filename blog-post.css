@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template/blog-post)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 10px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(135deg, #D9AFD9 7%, #006e99 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#post-title {
+  text-align: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+p {
+  text-indent: 25px;
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.post-content {
+  background-color: beige;
+  padding: 30px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+.disney-text {
+  display: inline-block;
+  margin-bottom: 100px;
+  padding-top: 50px;
+}
+
+.disney-img {
+  border: 3px solid black;
+  padding: 0px;
+  width: 100%;
+}
+
+.dis-div {
+  float: right;
+}
+
+.quotes {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+audio::-webkit-media-controls-panel, audio::-webkit-media-controls-enclosure, video::-webkit-media-controls-panel {
+  background-color: #006e99;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.audio-text {
+  text-align: center;
+}
+
+/* The hero image */
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media1.giphy.com/media/Cm9cwPDTXLPDG/giphy.gif");
+  /* Set a specific height */
+  height: 50%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  border: 5px solid white;
+  margin-bottom: 10px;
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
